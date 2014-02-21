@@ -906,7 +906,7 @@ class Slim
     }
 
     /**
-     * DEPRECATION WARNING! Use `setCookie` with the `cookies.encrypt` app setting set to `true`.
+     * @deprecated Use `setCookie` with the `cookies.encrypt` app setting set to `true`.
      *
      * Set encrypted HTTP cookie
      *
@@ -927,7 +927,7 @@ class Slim
     }
 
     /**
-     * DEPRECATION WARNING! Use `getCookie` with the `cookies.encrypt` app setting set to `true`.
+     * @deprecated Use `getCookie` with the `cookies.encrypt` app setting set to `true`.
      *
      * Get value of encrypted HTTP cookie
      *

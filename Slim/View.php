@@ -144,7 +144,7 @@ class View
      *******************************************************************************/
 
     /**
-     * DEPRECATION WARNING! This method will be removed in the next major point release
+     * @deprecated This method will be removed in the next major point release
      *
      * Get data from view
      */
@@ -158,7 +158,7 @@ class View
     }
 
     /**
-     * DEPRECATION WARNING! This method will be removed in the next major point release
+     * @deprecated This method will be removed in the next major point release
      *
      * Set data for view
      */
@@ -180,7 +180,7 @@ class View
     }
 
     /**
-     * DEPRECATION WARNING! This method will be removed in the next major point release
+     * @deprecated This method will be removed in the next major point release
      *
      * Append data to view
      * @param  array $data

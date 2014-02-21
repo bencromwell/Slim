@@ -151,7 +151,7 @@ class Response implements \ArrayAccess, \Countable, \IteratorAggregate
     }
 
     /**
-     * DEPRECATION WARNING! Use `getStatus` or `setStatus` instead.
+     * @deprecated Use `getStatus` or `setStatus` instead.
      *
      * Get and set status
      * @param  int|null $status
@@ -167,7 +167,7 @@ class Response implements \ArrayAccess, \Countable, \IteratorAggregate
     }
 
     /**
-     * DEPRECATION WARNING! Access `headers` property directly.
+     * @deprecated Access `headers` property directly.
      *
      * Get and set header
      * @param  string      $name  Header name
@@ -184,7 +184,7 @@ class Response implements \ArrayAccess, \Countable, \IteratorAggregate
     }
 
     /**
-     * DEPRECATION WARNING! Access `headers` property directly.
+     * @deprecated Access `headers` property directly.
      *
      * Get headers
      * @return \Slim\Http\Headers
@@ -205,7 +205,7 @@ class Response implements \ArrayAccess, \Countable, \IteratorAggregate
     }
 
     /**
-     * DEPRECATION WARNING! use `getBody` or `setBody` instead.
+     * @deprecated use `getBody` or `setBody` instead.
      *
      * Get and set body
      * @param  string|null $body Content of HTTP response body
@@ -244,7 +244,7 @@ class Response implements \ArrayAccess, \Countable, \IteratorAggregate
     }
 
     /**
-     * DEPRECATION WARNING! Use `getLength` or `write` or `body` instead.
+     * @deprecated Use `getLength` or `write` or `body` instead.
      *
      * Get and set length
      * @param  int|null $length
@@ -281,7 +281,7 @@ class Response implements \ArrayAccess, \Countable, \IteratorAggregate
     }
 
     /**
-     * DEPRECATION WARNING! Access `cookies` property directly.
+     * @deprecated Access `cookies` property directly.
      *
      * Set cookie
      *
@@ -302,7 +302,7 @@ class Response implements \ArrayAccess, \Countable, \IteratorAggregate
     }
 
     /**
-     * DEPRECATION WARNING! Access `cookies` property directly.
+     * @deprecated Access `cookies` property directly.
      *
      * Delete cookie
      *
@@ -433,7 +433,7 @@ class Response implements \ArrayAccess, \Countable, \IteratorAggregate
     }
 
     /**
-     * DEPRECATION WARNING! ArrayAccess interface will be removed from \Slim\Http\Response.
+     * @deprecated ArrayAccess interface will be removed from \Slim\Http\Response.
      * Iterate `headers` or `cookies` properties directly.
      */
 
@@ -470,7 +470,7 @@ class Response implements \ArrayAccess, \Countable, \IteratorAggregate
     }
 
     /**
-     * DEPRECATION WARNING! Countable interface will be removed from \Slim\Http\Response.
+     * @deprecated Countable interface will be removed from \Slim\Http\Response.
      * Call `count` on `headers` or `cookies` properties directly.
      *
      * Countable: Count
@@ -481,7 +481,7 @@ class Response implements \ArrayAccess, \Countable, \IteratorAggregate
     }
 
     /**
-     * DEPRECATION WARNING! IteratorAggregate interface will be removed from \Slim\Http\Response.
+     * @deprecated IteratorAggregate interface will be removed from \Slim\Http\Response.
      * Iterate `headers` or `cookies` properties directly.
      *
      * Get Iterator
